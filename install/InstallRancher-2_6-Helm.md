@@ -113,7 +113,7 @@ helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
   --create-namespace \
   --set hostname=rancher.xyz.com \
-  --set replicas=1
+  --set replicas=1 \
   --set bootstrapPassword=admin
 ```
 
